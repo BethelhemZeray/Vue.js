@@ -6,6 +6,9 @@
       <li>📊 Reports</li>
       <li>⚙️ Settings</li>
     </ul>
+    <ul>
+      <li>🔒 Logout</li>
+      </ul>
   </aside>
 </template>
 
@@ -14,21 +17,18 @@ export default { name: "Sidebar" }
 </script>
 
 <style>
-.sidebar {
-  width: 220px;
-  background: #1e293b;
-  color: white;
-  padding: 20px;
-}
+
 .sidebar h2 {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  color: black;
 }
 .sidebar ul {
   list-style: none;
-  padding: 0;
+  padding: 2;
 }
 .sidebar li {
-  margin: 10px 0;
+  margin: 20px 0;
+  color: black;
   cursor: pointer;
 }
 .sidebar li:hover {

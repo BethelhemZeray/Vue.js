@@ -1,7 +1,7 @@
 <template>
   <div class="content">
-    <h2>Other Content Area</h2>
-    <p>This is a reusable content section placed below the dashboard.</p>
+    <h2>Chart for waiting list entry trend</h2>
+   
   </div>
 </template>
 
@@ -11,11 +11,18 @@
 <style scoped>
 .content {
   height: 180px;
-  padding: 20px;
-  margin: 15px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  background: #ffffff;
-  border-top: 1px solid #e2e8f0;
-  flex-shrink: 0; /* Prevent shrinking */
+  padding: 15px;
+  margin: 20px;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  flex-shrink: 0; 
 }
+ .content h2 {
+  margin: 60px;
+  align-items: center;
+  color: black;
+  font-family: arial;
+  font-weight: lighter; 
+  }
+ 
 </style>

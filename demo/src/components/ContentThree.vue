@@ -1,6 +1,6 @@
 <template>
   <div class="content">
-    <h2>Third Content Area</h2>
+    <h2>Bar chart for signup sources</h2>
   </div>
 </template>
 
@@ -9,9 +9,20 @@
 
 <style scoped>
 .content {
-  padding: 20px;
-  background: #000000ff;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
   flex-shrink: 0;
+  height: 230px;
 }
+
+.content h2 {
+  margin: 60px;
+  align-items: center;
+  color: black;
+  font-family: arial;
+  font-weight: lighter; 
+  }
 
 </style>
